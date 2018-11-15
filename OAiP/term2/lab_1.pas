@@ -148,7 +148,6 @@ function sort_dr(a : arr) : integer;
     end;    
 
 begin
-    {input}
 
     for i := 1 to 5 do
         begin
@@ -158,8 +157,9 @@ begin
             res[i][4] := sort_bubble(a[i]);
         end;
     {end for}
-    writeln('     min     dr   dr_f   bubble');
+    
     {output}
+    writeln('     min     dr   dr_f   bubble');
     for i := 1 to 5 do
         begin
             write(i, ' ');
