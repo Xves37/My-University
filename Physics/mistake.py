@@ -15,7 +15,7 @@ def daListFind(avrg, a):
 
 def daListSqr(list):
     for i in list:
-        yield round(i**2, 5)
+        yield round(i**2, 10)
 
 # procedures
 def printI(str, val, mod = ''):
